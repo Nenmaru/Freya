@@ -1,0 +1,33 @@
+img {
+	max-width: 100%;
+}
+
+.center {
+	text-align: center;
+}
+
+.center-content {
+	padding: 50% 0%;
+}
+
+.center-margin {
+	margin: 50% auto 50% -20%;
+}
+.center-m {
+	margin: 50% auto;
+}
+.neon {
+	background: #FFF;
+	font-size: 14px;
+	font-weight: 100;
+	color: #ff2222;
+	text-shadow: 0.15px 0.15px 0 #ee3333, -0.15px -0.15px 0 #ee3333, 0.15px
+		-0.15px 0 #ee3333, -0.15px 0.15px 0 #ee3333, 0.45px 0.45px 0.75px
+		#dd4444, -0.45px 0.45px 0.75px #dd4444, 0.45px -0.45px 0.75px #dd4444,
+		-0.45px -0.45px 0.75px #dd4444;
+}
+
+.captcha {
+	height: 30px;
+	width: 100px;
+}

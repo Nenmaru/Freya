@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class IndexServlet
  */
-public class IndexServlet extends HttpServlet {
+public class TextLearn extends HttpServlet {
 	private static final long serialVersionUID = 11111111L;
 
 	@Override

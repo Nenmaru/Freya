@@ -1,0 +1,12 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%><%@ include file='../jspf/lib/taglib.jspf'%>
+<!-- FOOTER START -->
+<hr>
+<div class="navbar-static-bottom">
+	<div class="lead center">
+		<small> Nebliienko Maksym, Burlay Anastasiya, Olga Mirolyubova
+			: Chat-Bot Freya 2014 © </small>
+	</div>
+</div>
+<!-- FOOTER END -->
+

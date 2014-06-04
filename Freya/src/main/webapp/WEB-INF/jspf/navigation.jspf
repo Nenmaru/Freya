@@ -1,0 +1,17 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%><%@ include file='../jspf/lib/taglib.jspf'%>
+<!--NAVIGATION SIDE BAR START-->
+<div class="span2 offset1">
+	<div class="well sidebar-nav">
+		<ul class="nav nav-list">
+			<li class="nav-header">Спросите о:</li>
+			<li><a href="textInput">Погоде</a></li>
+			<li><a href="textInput">Политике</a></li>
+			<li><a href="textInput">Религии</a></li>
+			<li class="nav-header">Расскажите о:</li>
+			<li><a href="textLearn">Себе</a></li>
+			<li><a href="textLearn">Мыслях</a></li>
+		</ul>
+	</div>
+</div>
+<!--NAVIGATION SIDE BAR END-->

@@ -1,0 +1,9 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%><%@ include file='../jspf/lib/taglib.jspf'%>
+<!--BASKET SIDE BAR START-->
+<div class="span2">
+	<div class="well sidebar-nav">
+		<img src="getImage?image=images.jpg" alt="160x160" style="width: auto; height: auto;">
+	</div>
+</div>
+<!--BASKET SIDE BAR END-->

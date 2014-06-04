@@ -5,28 +5,66 @@
 	id="WebApp_ID" version="3.0">
 	<display-name>Freya</display-name>
 	<welcome-file-list>
-		<welcome-file>/index.page</welcome-file>
+		<welcome-file>index.page</welcome-file>
 	</welcome-file-list>
-
 	<servlet>
 		<servlet-name>IndexServlet</servlet-name>
 		<servlet-class>ua.kh.kture.web.IndexServlet</servlet-class>
 	</servlet>
-
 	<servlet-mapping>
 		<servlet-name>IndexServlet</servlet-name>
 		<url-pattern>/index.page</url-pattern>
 	</servlet-mapping>
-
-
+	<servlet>
+		<servlet-name>GetImageServlet</servlet-name>
+		<servlet-class>ua.kh.kture.web.GetImageServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetImageServlet</servlet-name>
+		<url-pattern>/getImage</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>AjaxAnswer</servlet-name>
+		<servlet-class>ua.kh.kture.web.AjaxAnswer</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AjaxAnswer</servlet-name>
+		<url-pattern>/ajaxAnswer</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>TextLearn</servlet-name>
+		<servlet-class>ua.kh.kture.web.TextLearn</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>TextLearn</servlet-name>
+		<url-pattern>/textLearn</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>TextInput</servlet-name>
+		<servlet-class>ua.kh.kture.web.TextInput</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>TextInput</servlet-name>
+		<url-pattern>/textInput</url-pattern>
+	</servlet-mapping>
 	<servlet>
 		<servlet-name>index.jsp</servlet-name>
 		<jsp-file>/index.jsp</jsp-file>
 	</servlet>
-
 	<servlet-mapping>
 		<servlet-name>index.jsp</servlet-name>
 		<url-pattern>/index</url-pattern>
 	</servlet-mapping>
-
+	<filter>
+		<filter-name>HttpAttributesFilter</filter-name>
+		<filter-class>ua.kh.kture.web.HttpAttributesFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>HttpAttributesFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	<context-param>
+		<param-name>ImagePath</param-name>
+		<param-value>C:\Users\Nenmaru\git\Freya\Freya\src\main\webapp\resources</param-value>
+	</context-param>
 </web-app>
