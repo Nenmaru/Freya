@@ -6,7 +6,7 @@ $(document).ready(
 						$.get("ajaxAnswer", {
 							"uno_texto" : uno_texto,
 						}, function(result) {
-							if(result=="Очень приятно! А я чат-бот Freya."){
+							if (result == "Очень приятно! А я чат-бот Freya.") {
 								$('#username').text($('#inputter').val());
 							}
 							$('#inputter').val("");
@@ -14,30 +14,38 @@ $(document).ready(
 									"Вы: " + uno_texto + '\nFreya: ' + result
 											+ '\n');
 							$("#redex").scrollTo("max", 1);
+							changeImage();
 						});
 					});
 		});
 $(document).ready(function() {
 	$('.name').click(function() {
-		var id  = $(this).attr('id');
+		var id = $(this).attr('id');
 		$.get("textLearn", {
 			"id" : id,
 		}, function(result) {
 			$('#inputter').val("");
 			$("#redex").append('Freya: ' + result + '\n');
 			$("#redex").scrollTo("max", 1);
+			changeImage();
 		});
 	});
 });
 $(document).ready(function() {
 	$('.theme').click(function() {
-		var id  = $(this).attr('id');
+		var id = $(this).attr('id');
 		$.get("textInput", {
 			"id" : id,
 		}, function(result) {
 			$('#inputter').val("");
 			$("#redex").append('Freya: ' + result + '\n');
 			$("#redex").scrollTo("max", 1);
+			changeImage();
 		});
 	});
 });
+
+function changeImage() {
+	$('#face').attr("src",
+			"getImage?image=" + (1 + Math.floor(Math.random() * 5)) + ".jpg");
+}

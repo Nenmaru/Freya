@@ -3,7 +3,7 @@
 <!--BASKET SIDE BAR START-->
 <div class="span2">
 	<div class="well sidebar-nav">
-		<img src="getImage?image=images.jpg" class="img-polaroid">
+		<img id="face" src="getImage?image=1.jpg" class="img-polaroid">
 	</div>
 </div>
 <!--BASKET SIDE BAR END-->
