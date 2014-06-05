@@ -23,7 +23,7 @@ public class GetImageServlet extends HttpServlet {
 	@Override
 	protected void doGet(HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException {
-		String filepath = path + "\\" + request.getParameter("image");
+		String filepath = request.getServletContext().getRealPath(path + "/" + request.getParameter("image"));
 		System.out.println(filepath);
 		BufferedImage image = ImageIO.read(new File(filepath));
 		try {
