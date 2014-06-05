@@ -5,12 +5,12 @@
 	<div class="well sidebar-nav">
 		<ul class="nav nav-list">
 			<li class="nav-header">Спросите о:</li>
-			<li><a href="textInput">Погоде</a></li>
-			<li><a href="textInput">Политике</a></li>
-			<li><a href="textInput">Религии</a></li>
+			<li><a id="weather" class="theme">Погоде</a></li>
+			<li><a id="politics" class="theme">Политике</a></li>
+			<li><a id="religion" class="theme">Религии</a></li>
 			<li class="nav-header">Расскажите о:</li>
-			<li><a href="textLearn">Себе</a></li>
-			<li><a href="textLearn">Мыслях</a></li>
+			<li><a id="name" class="name">Имя</a></li>
+			<li><a id="thoughts" class="name">Мыслях</a></li>
 		</ul>
 	</div>
 </div>

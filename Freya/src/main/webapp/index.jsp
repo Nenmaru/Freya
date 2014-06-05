@@ -16,12 +16,13 @@
 			<!--MAIN INTERFACE START-->
 			<div class="span6">
 				<div class="hero-unit well">
-					<textarea id="redex" class="redex" maxlength="1212" rows="12" style="width: 100%;"></textarea>
+					<textarea id="redex" class="redex" maxlength="0" rows="12"
+						style="width: 100%;"></textarea>
 					<br>
 					<div class="form-search btn-block">
 						<div class="input-append span12" style="width: 100%;">
-							<input type="text" id="inputter" class="inputter search-query span12"
-								style="width: 80%;">
+							<input type="text" id="inputter"
+								class="inputter search-query span12" style="width: 80%;">
 							<button class="sendMessage btn btn-primary pull-right"
 								style="width: 20%;">Отправить</button>
 						</div>

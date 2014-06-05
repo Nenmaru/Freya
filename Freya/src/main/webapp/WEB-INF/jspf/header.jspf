@@ -9,7 +9,7 @@
 				class="icon-bar"></span> <span class="icon-bar"></span>
 			</a> <a class="brand" href="index.page">Freya</a>
 			<div class="nav-collapse collapse">
-				<p class="navbar-text pull-right">Logged in as ${user eq null ? "unknown" : user }
+				<p class="navbar-text pull-right">Привет, <span id="username"> ${user eq null ? "неизвестный" : user }</span>!
 				</p>
 				<ul class="nav">
 					<li class="active"><a href="index.page">Чат</a></li>

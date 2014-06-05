@@ -65,6 +65,6 @@
 	</filter-mapping>
 	<context-param>
 		<param-name>ImagePath</param-name>
-		<param-value>C:\Users\Nenmaru\git\Freya\Freya\src\main\webapp\resources</param-value>
+		<param-value>C:\Users\Maksym_Nebliienko\git\Freya\Freya\src\main\webapp\resources</param-value>
 	</context-param>
 </web-app>
